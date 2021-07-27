@@ -1,0 +1,78 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+#general {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    padding: 20%
+}
+
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 15%;
+    line-height: 1.5;
+}
+
+#sedans button {
+    margin-top: 30%;
+    border-radius: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: white;
+    border: 0;
+    color: hsl(31, 77%, 52%);
+}
+
+#suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 15%;
+    line-height: 1.5;
+}
+
+#suv button {
+    margin-top: 30%;
+    border-radius: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: white;
+    border: 0;
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 15%;
+    line-height: 1.5;
+}
+
+#luxury button {
+    margin-top: 30%;
+    border-radius: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: white;
+    border: 0;
+    color: hsl(179, 100%, 13%);
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+}
+
+p {
+    color: white;
+    font-weight: 400;
+}
